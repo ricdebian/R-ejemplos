@@ -97,17 +97,10 @@ for (i in 1:length(direcciones[[1]])){
 
     print(e)
     cat("error en reg",i)
-    
-
-  
-
-  }
+   }
  
-  
-
  )
-  
-     
+
 }
 write.csv(salida,"búsqueda_coord_rc.csv")
 

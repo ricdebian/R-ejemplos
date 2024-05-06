@@ -29,7 +29,7 @@ for (i in 1:length(direcciones[[1]])){
   
  consulta <- curl_escape(consulta)
  # print(consulta)
-  ruta<-paste0("https://www.cartociudad.es/geocoder/api/geocoder/findJsonp?q=",consulta);
+  ruta<-paste0("http://192.148.213.38/geocoder/api/geocoder/findJsonp?q=",consulta);
   
   ruta<-(ruta);
   
